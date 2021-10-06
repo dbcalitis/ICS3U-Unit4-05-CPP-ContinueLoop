@@ -28,7 +28,7 @@ int main() {
                 // second input
                 std::cout << "Enter a number to add: ";
                 std::cin >> numberInputString;
-                
+
                 // process & output
                 numberInput = std::stoi(numberInputString);
                 if (numberInput == std::stof(numberInputString)) {
